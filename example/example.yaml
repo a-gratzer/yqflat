@@ -1,0 +1,8 @@
+application:
+  spring:
+    port: 8080
+    profiles:
+      active: dev
+server:
+  port: 9090
+

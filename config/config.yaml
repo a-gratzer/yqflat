@@ -1,0 +1,8 @@
+logger:
+  debug: true
+  logLevel: DEBUG
+  output:
+    - stdout
+#    - ./example/out.log
+
+separator: .
