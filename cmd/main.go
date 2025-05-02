@@ -2,9 +2,9 @@ package main
 
 import (
 	"flag"
-	"github.com/a-gratzer/flattern-yaml/internal/config"
-	internal_logger "github.com/a-gratzer/flattern-yaml/internal/logger"
-	"github.com/a-gratzer/flattern-yaml/internal/yqflat"
+	"github.com/a-gratzer/qyflat/internal/config"
+	internal_logger "github.com/a-gratzer/qyflat/internal/logger"
+	"github.com/a-gratzer/qyflat/internal/yqflat"
 	"github.com/spf13/viper"
 	"go.uber.org/zap"
 )
