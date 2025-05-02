@@ -2,9 +2,11 @@ package main
 
 import (
 	"flag"
-	"github.com/a-gratzer/qyflat/internal/config"
-	internal_logger "github.com/a-gratzer/qyflat/internal/logger"
-	"github.com/a-gratzer/qyflat/internal/yqflat"
+	"github.com/a-gratzer/yqflat/internal/config"
+
+	internal_logger "github.com/a-gratzer/yqflat/internal/logger"
+	"github.com/a-gratzer/yqflat/internal/yqflat"
+
 	"github.com/spf13/viper"
 	"go.uber.org/zap"
 )
